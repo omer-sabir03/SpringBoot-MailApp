@@ -1,7 +1,7 @@
 
 # Purchase Order Service
 
-This is a Spring Boot service that allows the purchase of items and sends a purchase confirmation email using JavaMailSender.
+This is a Spring Boot service that allows the purchase of items and sends a purchase confirmation email using spring-boot-starter-mail dependency.
 
 ## Features
 
