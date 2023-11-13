@@ -23,5 +23,15 @@ Before you begin, ensure you have met the following requirements:
 Update the `application.properties` file with the necessary email configuration:
 
 ```properties
-spring.mail.username
-spring.mail.password   etc
+#Properties to tell the mail protocol vendor
+spring.mail.host=smtp.gmail.com
+spring.mail.port=587
+
+#Actual username,password of sender
+spring.mail.username=uremail@gmail.com
+spring.mail.password=password
+
+#Property to trigger smtp
+spring.mail.properties.mail.smtp.auth=false
+spring.mail.properties.mail.smtp.starttls.enable=true
+spring.mail.properties.mail.smtp.starttls.required = true
